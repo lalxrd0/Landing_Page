@@ -1,0 +1,235 @@
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul { 
+    list-style-type: none;
+}
+.container { 
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #1F2937;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: Verdana, sans-serif;
+    font-weight: 400;
+
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.navbar ul { 
+    display: flex;
+    gap: 80px;
+    margin-right: 20px;
+}
+
+
+/* Header */
+.header { 
+    background-color: #1F2937;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header .container { 
+    display: flex;
+    gap: 200px;
+}
+
+.header h1 { 
+    color: white;
+    margin-bottom: 15px;
+    font-family: Verdana, sans-serif;
+}
+.header p { 
+    color: white;
+    width: 520px;
+    margin-bottom: 20px;
+    font-family: Verdana, sans-serif;
+    font-style: oblique;
+}
+.header .sign-up { 
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 8px;
+    color: black;
+    border-radius: 8px;
+    height: 25px;
+    width: 100px;
+    font-family: Verdana, sans-serif;
+    font-weight: 550;
+    
+}
+.header .log-in { 
+    margin-left: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 8px;
+    color: black;
+    border-radius: 8px;
+    height: 25px;
+    width: 100px;
+    font-family: Verdana, sans-serif;
+    font-weight: 550;
+}
+
+/* Section title */
+.section-title .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 20px;
+}
+
+
+/* First Section */ 
+
+.boxes { 
+    background-color: white;
+    height: 300px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.boxes .container { 
+    display: flex;
+    padding: 20px;
+    gap: 50px;
+}
+
+.boxes .different { 
+    width: 350px;
+    font-family: Verdana, sans-serif;
+}
+
+.boxes .different p{ 
+    margin-top: 20px;
+    font-family: Verdana, sans-serif;
+    font-style: italic;
+}
+
+.boxes .explore { 
+    width: 350px;
+    font-family: Verdana, sans-serif;
+}
+
+.boxes .explore p{ 
+    margin-top: 20px;
+    font-family: Verdana, sans-serif;
+    font-style: italic;
+}
+.boxes .world { 
+    width: 350px;
+    font-family: Verdana, sans-serif;
+}
+
+.boxes .world p{ 
+    margin-top: 50px;
+    font-family: Verdana, sans-serif;
+    font-style: italic;
+
+}
+
+/* Second Section */
+.inspiring-quote { 
+    background-color: #d9d9d9;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inspiring-quote .quote { 
+    width: 940px;
+    font-family: Verdana, sans-serif;
+    font-style: italic;
+    font-size: 25px;
+}
+
+.inspiring-quote .quote-author { 
+    width: 800px;
+    display: flex;
+    justify-content: flex-end;
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+}
+
+
+/* Third Section */
+.call-to-action {
+    background-color: white;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.call-to-action .container { 
+    background-color: #457b9d;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 150px;
+    padding: 15px;
+    border-radius: 8px;
+    width: 850px;
+    height: 120px;
+}
+
+.call-to-action .sign-up {
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-weight: 650;
+}
+
+.call-to-action .sign-up p{ 
+    font-style: italic;
+}
+
+.call-to-action .click-me { 
+    color: black;
+    border-radius: 8px;
+    height: 30px;
+    width: 70px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+
+/* Footer */
+.footer {
+    background-color: #1F2937;
+    height: 70px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica, sans-serif;
+}
+
+
+.footer .copyright {
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+}
